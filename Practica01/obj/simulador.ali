@@ -1,0 +1,67 @@
+V "GNAT Lib v2021"
+A -gnatA
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_FLOATING_POINT
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U simulador%b		simulador.adb		a387c111 NE OO PK
+
+U simulador%s		simulador.ads		0859b6dc EE NE OO PK
+
+D simulador.ads		20240323185324 0859b6dc simulador%s
+D simulador.adb		20240323192016 abde77cd simulador%b
+D system.ads		20210520051136 2ffa5114 system%s
+G a e
+G c Z s b [calc_tt simulador 15 13 none]
+G c Z s b [calc_st2 simulador 16 13 none]
+G c Z s b [calc_st1 simulador 17 13 none]
+G c Z s b [calc_sd1 simulador 18 13 none]
+G c Z s b [calc_sc1 simulador 21 13 none]
+G c Z s b [calc_sc2 simulador 22 13 none]
+G c Z s s [vectorIP simulador 4 9 none]
+X 1 simulador.ads
+1K9*Simulador 24l5 24e14 2|1b14 49l5 49t14
+4A9*Vector(float)<integer>
+7f4*b{float} 2|15r23 38r17
+8f4*Leq{float} 2|15r25 38r19
+9f4*H{float} 2|15r52 38r31
+10f4*c{float} 2|15r33 15r63 38r46
+11f4*Cp{float} 2|15r41 15r71 38r52
+12f4*p{float} 2|15r44 15r74 38r55
+15V13*calc_Tt{float} 15>22 15>27 2|5b13 10l8 10t15
+15f22 ST1{float} 2|5b22 8r14
+15f27 ST2{float} 2|5b27 8r20
+16V13*calc_ST2{float} 16>23 16>28 16>33 16>38 16>43 2|12b13 17l8 17t16
+16f23 SR1{float} 2|12b23 15r29
+16f28 ST4{float} 2|12b28 15r58
+16f33 ST1{float} 2|12b33 15r15
+16f38 SC1{float} 2|12b38 15r37 15r67
+16f43 Tt{float} 2|12b43 15r55
+17V13*calc_ST1{float} 17>23 2|19b13 24l8 24t16
+17f23 ST2{float} 2|19b23 22r14
+18V13*calc_SD1{float} 18>23 18>28 18>33 2|26b13 31l8 31t16
+18f23 SC2{float} 2|26b23 29r53 29r69
+18f28 ST2{float} 2|26b28 29r32 29r65
+18f33 ST3{float} 2|26b33 29r43
+21V13*calc_SC1{float} 21>23 21>28 21>32 21>37 21>42 2|35b13 40l8 40t16
+21f23 SR1{float} 2|35b22 38r23
+21f28 Tt{float} 2|35b27 38r34
+21f32 ST4{float} 2|35b31 38r39
+21f37 ST2{float} 2|35b36 38r58
+21f42 ST1{float} 2|35b41 38r64
+22V13*calc_SC2{float} 22>23 22>28 22>33 2|42b13 47l8 47t16
+22f23 SD1{float} 2|42b22 45r16
+22f28 ST2{float} 2|42b27 45r42 45r71
+22f33 ST3{float} 2|42b32 45r55
+X 2 simulador.adb
+6f7 Tt{float} 8m7 9r14
+13f7 calc{float} 15m7 16r14
+20f7 ST1{float} 22m7 23r14
+27f7 SD1{float} 29m7 30r14
+36f7 SC1{float} 38m7 39r14
+43f7 SC2{float} 45m7 46r14
+

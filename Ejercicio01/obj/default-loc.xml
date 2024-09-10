@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<Locations>
+  <Project>
+    <vfs_file />
+    <file_marker column=" 24" line=" 2" >
+      <vfs_project />
+      <vfs_file>C:\WORKSPACES\STR\Practica01\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker current="true" column=" 68" line=" 14" >
+      <vfs_project />
+      <vfs_file>C:\WORKSPACES\STR\Practica01\src\sesion01.adb</vfs_file>
+    </file_marker>
+  </Project>
+</Locations>

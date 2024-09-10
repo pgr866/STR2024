@@ -1,0 +1,88 @@
+V "GNAT Lib v2021"
+M P W=b
+A -gnatA
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_ALLOCATORS
+RV NO_LOCAL_ALLOCATORS
+RV NO_STANDARD_ALLOCATORS_AFTER_ELABORATION
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_TASK_ALLOCATORS
+RV NO_TASK_HIERARCHY
+RV NO_TASKING
+RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV MAX_TASKS=1+
+
+U main%b		main.adb		12815fed NE OO SU
+Z ada.real_time%s	a-reatim.adb		a-reatim.ali
+W putter%s		putter.adb		putter.ali
+Z system%s		system.ads		system.ali
+Z system.concat_2%s	s-conca2.adb		s-conca2.ali
+Z system.img_int%s	s-imgint.ads		s-imgint.ali
+Z system.parameters%s	s-parame.adb		s-parame.ali
+Z system.soft_links%s	s-soflin.adb		s-soflin.ali
+Z system.task_info%s	s-tasinf.adb		s-tasinf.ali
+Z system.tasking%s	s-taskin.adb		s-taskin.ali
+Z system.tasking.stages%s  s-tassta.adb		s-tassta.ali
+
+D ada.ads		20210520051132 76789da1 ada%s
+D a-except.ads		20210520051128 946f3014 ada.exceptions%s
+D a-reatim.ads		20210520051128 0240fc73 ada.real_time%s
+D a-unccon.ads		20210520051130 0e9b276f ada.unchecked_conversion%s
+D interfac.ads		20210520051132 edec285f interfaces%s
+D i-c.ads		20210520051132 d9beded9 interfaces.c%s
+D i-cstrin.ads		20210520051132 341d0ddf interfaces.c.strings%s
+D main.adb		20240428192300 a501358a main%b
+D putter.ads		20240428191946 b7806a67 putter%s
+D system.ads		20210520051136 2ffa5114 system%s
+D s-atacco.ads		20210520051132 4c36d12f system.address_to_access_conversions%s
+D s-conca2.ads		20210520051132 02a0d7d0 system.concat_2%s
+D s-exctab.ads		20210520051132 54135002 system.exception_table%s
+D s-imagei.ads		20210520051134 0d3f86a7 system.image_i%s
+D s-imgint.ads		20210520051134 bdb6f5ec system.img_int%s
+D s-multip.ads		20210520051134 38ac9f73 system.multiprocessors%s
+D s-osinte.ads		20210520051128 97504df8 system.os_interface%s
+D s-parame.ads		20210520051134 4752c4cb system.parameters%s
+D s-secsta.ads		20210520051134 9b3ab94b system.secondary_stack%s
+D s-soflin.ads		20210520051134 a7318a92 system.soft_links%s
+D s-stache.ads		20210520051134 a37c21ec system.stack_checking%s
+D s-stausa.ads		20210520051134 017a0a05 system.stack_usage%s
+D s-stalib.ads		20210520051134 472fbca8 system.standard_library%s
+D s-stoele.ads		20210520051134 2dc34a04 system.storage_elements%s
+D s-tasinf.ads		20210520051128 601f6b72 system.task_info%s
+D s-taspri.ads		20210520051128 a1350802 system.task_primitives%s
+D s-taprop.ads		20210520051128 6eefbe12 system.task_primitives.operations%s
+D s-taskin.ads		20210520051128 88fba9ad system.tasking%s
+D s-tassta.ads		20210520051128 cca55c94 system.tasking.stages%s
+D s-traent.ads		20210520051134 26a8d361 system.traceback_entries%s
+D s-unstyp.ads		20210520051134 2b077493 system.unsigned_types%s
+D s-win32.ads		20210520051136 15ac53fb system.win32%s
+G a e
+G c Z b b [main standard 4 11 none]
+X 8 main.adb
+4U11*Main 4b11 39l5 39t9
+6T14 Tarea_A 6d23 9r25 13b14 16l8 16t15 34r17
+6i23 i{integer} 15r61
+7T14 Tarea_B 7d23 10r25 18b14 21l8 21t15 35r17
+7i23 i{integer} 20r61
+8T14 Tarea_C 8d23 11r25 23b14 26l8 26t15 36r17
+8i23 i{integer} 25r61
+9P9 Con_A(6T14) 28r8
+10P9 Con_B(7T14) 29r8
+11P9 Con_C(8T14) 30r8
+28p4 TA{9P9} 34m7
+29p4 TB{10P9} 35m7
+30p4 TC{11P9} 36m7
+33i8 i{integer} 34r25 35r25 36r25
+X 9 putter.ads
+1K9*Putter 8|1w6 2r5 15r7 20r7 25r7 9|3e11
+2U14*Put_Line 8|15s14 20s14 25s14
+X 22 s-stausa.ads
+208U14*Initialize 209i<c,__gnat_stack_usage_initialize>22
+273U14*Output_Results 277i<c,__gnat_stack_usage_output_results>22
+

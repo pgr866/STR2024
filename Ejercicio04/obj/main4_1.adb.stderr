@@ -1,0 +1,1 @@
+main4_1.adb:25:24: warning: "Dato" may be referenced before it has a value [enabled by default]

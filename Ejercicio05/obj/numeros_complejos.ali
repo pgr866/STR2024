@@ -1,0 +1,47 @@
+V "GNAT Lib v2021"
+A -gnatA
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_FLOATING_POINT
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U numeros_complejos%b	numeros_complejos.adb	d47184a6 NE OO PK
+
+U numeros_complejos%s	numeros_complejos.ads	7a9edd19 EE NE OO PK
+
+D numeros_complejos.ads	20240321204430 7a9edd19 numeros_complejos%s
+D numeros_complejos.adb	20240321205142 aeef59bf numeros_complejos%b
+D system.ads		20210520051136 2ffa5114 system%s
+G a e
+G c Z s b [suma numeros_complejos 12 13 none]
+G c Z s b [resta numeros_complejos 15 13 none]
+G c Z s b [producto numeros_complejos 18 13 none]
+G c Z s b [division numeros_complejos 21 13 none]
+G c Z s b [conjugado numeros_complejos 24 13 none]
+G c Z s s [complejoIP numeros_complejos 6 9 none]
+X 1 numeros_complejos.ads
+3K9*Numeros_Complejos 27l5 27e22 2|3b14 32l5 32t22
+6R9*Complejo 8e14 12r30 12r47 15r31 15r48 18r34 18r51 21r34 21r51 24r28 24r45
+. 2|5r30 5r47 10r31 10r48 15r34 15r51 21r34 21r51 27r28 27r45
+7f7*Real{float} 2|7m15 7r28 7r40 12m15 12r28 12r40 17m15 17r28 17r40 18r34
+. 18r82 23m15 23r29 23r41 23r91 24r53 24r65 24r97 29m15 29r27
+7f13*Imaginario{float} 2|7m46 7r65 7r83 12m46 12r65 12r83 17r52 17r70 18m15
+. 18r46 18r64 23r53 23r71 23r108 24m15 24r35 24r77 24r114 29m33 29r52
+12V13*Suma{6R9} 12>18 12>24 2|5b13 8l8 8t12
+12r18 Num1{6R9} 2|5b18 7r23 7r60
+12r24 Num2{6R9} 2|5b24 7r35 7r78
+15V13*Resta{6R9} 15>19 15>25 2|10b13 13l8 13t13
+15r19 Num1{6R9} 2|10b19 12r23 12r60
+15r25 Num2{6R9} 2|10b25 12r35 12r78
+18V13*Producto{6R9} 18>22 18>28 2|15b13 19l8 19t16
+18r22 Num1{6R9} 2|15b22 17r23 17r47 18r29 18r59
+18r28 Num2{6R9} 2|15b28 17r35 17r65 18r41 18r77
+21V13*Division{6R9} 21>22 21>28 2|21b13 25l8 25t16
+21r22 Num1{6R9} 2|21b22 23r24 23r48 24r30 24r60
+21r28 Num2{6R9} 2|21b28 23r36 23r66 23r86 23r103 24r48 24r72 24r92 24r109
+24V13*Conjugado{6R9} 24>23 2|27b13 30l8 30t17
+24r23 Num{6R9} 2|27b23 29r23 29r48
+

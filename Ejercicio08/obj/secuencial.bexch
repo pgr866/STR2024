@@ -1,0 +1,19 @@
+[GENERATED OBJECT FILE]
+b__secuencial.o
+[PROJECT FILES]
+C:\WORKSPACES\STR\STR\Ejercicio08\ejercicio08.gpr
+20240428181840 0818d1732350a799f2bb6099c86bb205
+[BOUND OBJECT FILES]
+C:\WORKSPACES\STR\STR\Ejercicio08\obj\secuencial.o
+[GENERATED SOURCE FILES]
+b__secuencial.ads
+b__secuencial.adb
+b__secuencial.ali
+[RESULTING OPTIONS]
+-LC:\WORKSPACES\STR\STR\Ejercicio08\obj\
+-LC:\WORKSPACES\STR\STR\Ejercicio08\obj\
+-LC:/gnat/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/adalib/
+-static
+-static-libgcc
+C:/gnat/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/adalib/libgnat.a
+-Wl,--stack=0x2000000

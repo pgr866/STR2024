@@ -1,0 +1,22 @@
+[GENERATED OBJECT FILE]
+b__tareas_estaticas.o
+[PROJECT FILES]
+C:\WORKSPACES\STR\STR\Ejercicio08\ejercicio08.gpr
+20240428184600 d8703304dadf2eff628c6856fc4cc692
+[BOUND OBJECT FILES]
+C:\WORKSPACES\STR\STR\Ejercicio08\obj\tareas_estaticas.o
+[GENERATED SOURCE FILES]
+b__tareas_estaticas.ads
+b__tareas_estaticas.adb
+b__tareas_estaticas.ali
+[RESULTING OPTIONS]
+-LC:\WORKSPACES\STR\STR\Ejercicio08\obj\
+-LC:\WORKSPACES\STR\STR\Ejercicio08\obj\
+-LC:/gnat/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/adalib/
+-static
+-static-libgcc
+C:/gnat/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/adalib/libgnarl.a
+C:/gnat/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/adalib/libgnat.a
+-Xlinker
+--stack=0x200000,0x1000
+-mthreads

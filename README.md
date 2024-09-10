@@ -1,1 +1,1 @@
-# STR2024
+# Ejercicios y Prácticas de Sistemas en Tiempo Real

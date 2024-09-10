@@ -1,0 +1,12 @@
+k = 4	Alarma: ST2 tiene una temperatura > 98 ºC:  1.02128E+02ºC
+k = 5	Alarma: ST2 tiene una temperatura > 98 ºC:  1.10087E+02ºC
+k = 6	Alarma: ST2 tiene una temperatura > 98 ºC:  1.15106E+02ºC
+k = 7	Alarma: ST2 tiene una temperatura > 98 ºC:  1.16599E+02ºC
+k = 8	Alarma: ST2 tiene una temperatura > 98 ºC:  1.16810E+02ºC
+k = 9	Alarma: ST2 tiene una temperatura > 98 ºC:  1.18579E+02ºC
+k = 10	Alarma: ST2 tiene una temperatura > 98 ºC:  1.21016E+02ºC
+k = 11	Alarma: ST2 tiene una temperatura > 98 ºC:  1.22092E+02ºC
+k = 12	Alarma: ST2 tiene una temperatura > 98 ºC:  1.24303E+02ºC
+k = 13	Alarma: ST2 tiene una temperatura > 98 ºC:  1.23164E+02ºC
+k = 14	Alarma: ST2 tiene una temperatura > 98 ºC:  1.24088E+02ºC
+k = 15	Alarma: ST2 tiene una temperatura > 98 ºC:  1.20982E+02ºC

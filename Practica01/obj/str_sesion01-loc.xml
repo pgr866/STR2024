@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<Locations >
+  <Project>
+    <vfs_file>C:\Users\Pablo\Desktop\STR\Practica01\str_sesion01.gpr</vfs_file>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\Pablo\Desktop\STR\Practica01\str_sesion01.gpr</vfs_project>
+      <vfs_file>C:\Users\Pablo\Desktop\STR\Practica01\src\sesion01.adb</vfs_file>
+    </file_marker>
+    <file_marker current="true" column=" 1" line=" 1" >
+      <vfs_project>C:\Users\Pablo\Desktop\STR\Practica01\str_sesion01.gpr</vfs_project>
+      <vfs_file>C:\Users\Pablo\Desktop\STR\Practica01\src\main.adb</vfs_file>
+    </file_marker>
+  </Project>
+  <Project >
+    <vfs_file >C:\Users\Jes#195;#186;s\Desktop\Basura\STR\Pr#195;#161;ctica01\str_sesion01.gpr</vfs_file>
+    <file_marker column=" 1" line=" 1">
+      <vfs_project  />
+      <vfs_file >C:\GNAT\2021\bin\str_sesion01.gpr</vfs_file>
+    </file_marker>
+    <file_marker column=" 26" line=" 2">
+      <vfs_project  />
+      <vfs_file >C:\GNAT\2021\bin\str_sesion01.gpr</vfs_file>
+    </file_marker>
+    <file_marker column=" 4" line=" 3">
+      <vfs_project >C:\Users\Jes#195;#186;s\Desktop\Basura\STR\Pr#195;#161;ctica01\str_sesion01.gpr</vfs_project>
+      <vfs_file >C:\Users\Jes#195;#186;s\Desktop\Basura\STR\Pr#195;#161;ctica01\src\sesion01_body-ads.adb</vfs_file>
+    </file_marker>
+    <file_marker current="true" column=" 4" line=" 3">
+      <vfs_project >C:\Users\Jes#195;#186;s\Desktop\Basura\STR\Pr#195;#161;ctica01\str_sesion01.gpr</vfs_project>
+      <vfs_file >C:\Users\Jes#195;#186;s\Desktop\Basura\STR\Pr#195;#161;ctica01\src\sesion01_body-ads.ads</vfs_file>
+    </file_marker>
+  </Project>
+</Locations>

@@ -1,0 +1,2 @@
+main04.adb:15:20: error: expected type "Standard.Float"
+main04.adb:15:20: error: found a composite type

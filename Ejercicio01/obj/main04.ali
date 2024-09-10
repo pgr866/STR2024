@@ -1,0 +1,26 @@
+V "GNAT Lib v2021"
+M P W=b
+A -gnatA
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_FLOATING_POINT
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U main04%b		main04.adb		e3e7bd4f NE OO SU IL
+
+D main04.adb		20240321183752 e3e7bd4f main04%b
+D system.ads		20210520051136 2ffa5114 system%s
+G a e
+G c Z b b [main04 standard 1 11 none]
+X 1 main04.adb
+1U11*main04 1b11 19l5 19t11
+3A9 Vector1(float)<integer> 7r9 8r9
+4A9 Matriz1(float)<integer><integer><integer>
+5A9 Vector2(float)<integer> 9r9
+7a4 V1{3A9} 14m4
+8a4 M1{3A9} 15m4
+9a4 V2{5A9} 16m4
+

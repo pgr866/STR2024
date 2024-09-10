@@ -1,0 +1,22 @@
+[GENERATED OBJECT FILE]
+b__tareas_dinamicas.o
+[PROJECT FILES]
+C:\WORKSPACES\STR\STR\Ejercicio08\ejercicio08.gpr
+20240428185946 92226286c1a6a511a1a7c6a89f1318f5
+[BOUND OBJECT FILES]
+C:\WORKSPACES\STR\STR\Ejercicio08\obj\tareas_dinamicas.o
+[GENERATED SOURCE FILES]
+b__tareas_dinamicas.ads
+b__tareas_dinamicas.adb
+b__tareas_dinamicas.ali
+[RESULTING OPTIONS]
+-LC:\WORKSPACES\STR\STR\Ejercicio08\obj\
+-LC:\WORKSPACES\STR\STR\Ejercicio08\obj\
+-LC:/gnat/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/adalib/
+-static
+-static-libgcc
+C:/gnat/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/adalib/libgnarl.a
+C:/gnat/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/adalib/libgnat.a
+-Xlinker
+--stack=0x200000,0x1000
+-mthreads
